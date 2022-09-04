@@ -1,0 +1,3 @@
+red = '#FF2E60'
+brown = '#C18957'
+yellow = '#FFC522'
