@@ -1,13 +1,13 @@
-import { styled } from '@mui/material/styles';
-
-export default styled((theme) => ({
+export const styles = {
   root: {
     '& .MuiTextField-root': {
-      margin: theme.spacing(1),
+      // margin: theme.spacing(1),
+      margin: 1
     },
   },
   paper: {
-    padding: theme.spacing(2),
+    // padding: theme.spacing(2),
+    padding: 2
   },
   form: {
     display: 'flex',
@@ -21,5 +21,5 @@ export default styled((theme) => ({
   buttonSubmit: {
     marginBottom: 10,
   },
-}));
+}
 

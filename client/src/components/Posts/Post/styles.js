@@ -1,6 +1,6 @@
-import { styled } from '@mui/material/styles';
 
-export default styled({
+
+export const styles = {
   media: {
     height: 0,
     paddingTop: '56.25%',
@@ -49,4 +49,4 @@ export default styled({
     display: 'flex',
     justifyContent: 'space-between',
   },
-});
+}
