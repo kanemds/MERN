@@ -16,6 +16,8 @@ const App = () => {
       <Grow in>
         <Container>
           <Grid container justify="space-between" alignItems="stretch" spacing={4}>
+
+            {/* in small device take full with 12,  in medium take 7 */}
             <Grid item xs={12} sm={7}>
               <Posts />
             </Grid>

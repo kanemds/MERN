@@ -1,16 +1,13 @@
-
-import { styled } from '@mui/material/styles';
-
-
-export default styled((theme) => ({
+export const styles = {
   mainContainer: {
     display: 'flex',
     alignItems: 'center',
   },
   smMargin: {
-    margin: theme.spacing(1),
+    // margin: theme.spacing(1),
+    margin: 1
   },
   actionDiv: {
     textAlign: 'center',
   },
-}));
+}
